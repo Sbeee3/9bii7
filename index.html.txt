@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر إلكتروني</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>اسم المتجر</h1>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">المنتجات</a></li>
+                <li><a href="#">السلة</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+            </ul>
+            <input type="text" placeholder="بحث عن منتج">
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>خصومات تصل إلى 50%!</h2>
+        <button>تسوق الآن</button>
+    </section>
+
+    <section class="product-display">
+        <h2>المنتجات المميزة</h2>
+        <div class="product-card">
+            <img src="product1.jpg" alt="منتج 1">
+            <h3>اسم المنتج 1</h3>
+            <p>100 درهم</p>
+            <button>أضف للسلة</button>
+        </div>
+        <div class="product-card">
+            <img src="product2.jpg" alt="منتج 2">
+            <h3>اسم المنتج 2</h3>
+            <p>200 درهم</p>
+            <button>أضف للسلة</button>
+        </div>
+        <!-- أضف المزيد من المنتجات كما تريد -->
+    </section>
+
+    <footer>
+        <p>حقوق الطبع والنشر © 2024. جميع الحقوق محفوظة.</p>
+        <ul>
+            <li><a href="#">سياسة الخصوصية</a></li>
+            <li><a href="#">الشروط والأحكام</a></li>
+        </ul>
+    </footer>
+</body>
+	</html>
